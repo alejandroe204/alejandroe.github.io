@@ -1,0 +1,189 @@
+body{
+	background-color: #0D0D0D;
+}
+
+a{
+	text-decoration: none;
+	color: #FFFFFF;
+}
+
+#menu{
+	margin-top: 10px;
+	border-radius: 100px;
+	background: linear-gradient(135deg, rgba(255, 255, 255, 0.1), rgba(255, 255, 255, 0));
+	border: 1px solid rgba(255, 255, 255, 0.18);
+	box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+	padding: 2px 30px 4px 30px;
+	backdrop-filter: blur(10px);
+	background-blend-mode:color-dodge;
+	position: absolute;
+	text-align: center;
+}
+
+.menu a{
+	font-family: "Hanken Grotesk", sans-serif;
+	font-weight: 600;
+}
+
+
+.piedepag{
+	color: #FFFFFF;
+	background-color: #000000;
+	padding: 100px;
+	margin-top: 60px;
+}
+
+.piedepag h5{
+	font-family: "Questrial", sans-serif;
+    font-size: 20px;
+	font-weight: 400;
+}
+
+.piedepag a{
+	font-family: "Questrial", sans-serif;
+    font-size: 16px;
+	font-weight: 400;
+}
+
+.trabajo_{
+	padding-top: 35px;
+}
+
+.acerca{
+	color: #FFFFFF;
+	padding: 200px 0px;
+}
+
+.galeria{
+	padding: 100px 0px;
+}
+
+.galeria{
+	columns: 3 320px;
+	column-gap: 2em;
+}
+
+.galeria img{
+	max-width: 100%;
+	margin-bottom: 2em;
+}
+
+.custom-card {
+    background: linear-gradient(0deg, rgba(255, 255, 255, 0.092), rgba(255, 255, 255, 0));
+	border: 1px solid rgba(255, 255, 255, 0.18);
+	box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.5);
+    border-radius: 30px; /* Bordes redondeados */
+    color: rgb(255, 255, 255);
+    transition: background-color 0.3s ease; /* Transición suave */
+	margin: 40px 180px;
+	transition: transform 0.3s ease;
+	padding: 30px;
+}
+
+.custom-card:hover {
+    background: linear-gradient(0deg, rgb(60, 73, 239), rgba(21, 4, 94, 0.442));
+    color: white; /* Cambiar el color del texto también si es necesario */
+	transform: scale(1.02);
+}
+
+.custom-card h1{
+	font-family: "Questrial", sans-serif;
+    font-size: 35px; /* Tamaño de fuente */
+	font-weight: 400;
+}
+
+.custom-card h2{
+	font-family: "Lexend", sans-serif;
+    font-size: 85px; /* Tamaño de fuente */
+	font-weight: 200;
+}
+
+.custom-card p{
+	font-family: "Questrial", sans-serif;
+    font-size: 15px; /* Tamaño de fuente */
+	font-weight: 400;
+}
+
+.custom-card .btn {
+    background-color: #3C49EF;
+    color: white;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-card:hover .btn {
+    background-color: #ffffff;
+    color: #3C49EF;
+    width: 40px;
+    height: 40px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.custom-card img {
+    border-radius: 25px;
+    transition: transform 0.3s ease; 
+	width: 100%;
+    height: auto;
+}
+
+.custom-card:hover img {
+    transform: scale(1.00); 
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.ilus{
+	margin-top: 150px;
+	text-align: center;
+	color: #FFFFFF;
+}
+
+.ilus h2{
+	font-family: "Questrial", sans-serif;
+    font-size: 25px;
+	font-weight: 400;
+}
+
+.ilus p{
+	font-family: "Questrial", sans-serif;
+    font-size: 14px;
+	font-weight: 400;
+}
+
+.abo{
+	margin-top: 150px;
+	text-align: left;
+	color: #FFFFFF;
+}
+
+.abo h2{
+	font-family: "Questrial", sans-serif;
+    font-size: 45px;
+	font-weight: 400;
+}
+
+.abo p{
+	font-family: "Questrial", sans-serif;
+    font-size: 18px;
+	font-weight: 400;
+}
+
+
